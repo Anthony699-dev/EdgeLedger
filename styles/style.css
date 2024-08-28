@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+    height: 1500px;
+    width: 100vw;
+    background-color: blueviolet;
+}
+
+.nav{
+    height: 7vh;
+    width: 100vw;
+    background-color: rgb(44, 43, 43);
+}
+
+.logo{
+    font-size: 20px;
+    color: white;
+    padding: 10px 15px;
+    height: 5vh;
+    width: 50vw;
+}
+
+.edge{
+    color: greenyellow;
+}
+
+.nav-btn{
+    height: 5vh;
+    width: 50vw;
+}
+
+.showcase{
+    height: 80vh;
+    width: 100vw;
+    text-align: center;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.our-job{
+   height: 45vh;
+   width: 100vw;
+   background-color: white;
+   text-align: center;
+}
+
+.our-job h2{
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+.what{
+    color: greenyellow;
+}
+
+.part{
+    background-color: white;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.investment{  
+    height: 28vh;
+    width: 20vw;
+    background-color: blue;
+    margin: 10px;
+}
+
+.portfolio{
+    height: 28vh;
+    width: 20vw;
+    background-color: rgb(92, 173, 45);
+    margin: 10px;
+}
+
+.tax{  
+    height: 28vh;
+    width: 20vw;
+    background-color: rgb(194, 64, 97);
+    margin: 10px;
+}
+
+.about-us{
+    background-color:    rgb(44, 43, 43);
+    height: 65vh;
+    width: 100vw;
+}
+
+.our-pic{
+    width: 50vw;
+    height: 65vh;
+    background-image: url('../pics/ourpic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.narrative{
+    width: 50vw;
+    height: 70vh;
+}
