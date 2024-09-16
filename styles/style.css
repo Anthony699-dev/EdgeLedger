@@ -244,12 +244,13 @@ li a{
 
 .sponsors-hd{
     height: 5vh;
-    width: 100vw;
+    width: 100%;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    text-align: center;
 }
 
 .ct{
@@ -331,13 +332,14 @@ iframe{
 
 .footer{
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     background-color:  rgb(44, 43, 43);
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 18px;
+    text-align: center;
 }
 
 
@@ -562,6 +564,7 @@ iframe{
     color: white;
     font-size: 18px;
     padding-left: 30px;
+    text-align: center;
 }
 
  
