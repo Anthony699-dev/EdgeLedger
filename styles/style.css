@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
 
 
@@ -67,7 +68,7 @@ li a{
 
 .our-job{
    height: 45vh;
-   width: 100vw;
+   max-width: 100vw;
    background-color: white;
    text-align: center;
 
@@ -109,7 +110,7 @@ li a{
 
 .inv-text{
     height: 28vh;
-    width: 15vw;
+    /* max-width: 15vw; */
     padding-left: 10px;
 }
 
@@ -341,25 +342,21 @@ iframe{
 
 
 @media (max-width:500px) {
-    *{
-        box-sizing: border-box;
-        margin: 0px;
-        padding: 0px;
-    }
     
-    
-    .container{
-        height: 150vh;
-        width: 100vw;
-        background-color: blueviolet;
-    }
+.container{
+    height: 100vh;
+    max-width: 100vw;
+    background-color: blueviolet;
+}
     
     
 .our-job{
-    height: 35vh;
-    width: 100vw;
+    height: 95%;
+    width: 100%;
     background-color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
  }
  
  .our-job h2{
@@ -371,15 +368,201 @@ iframe{
      color: greenyellow;
  }
 
+
  .part{
     background-color: white;
-    height: 40vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+
+.investment, .portfolio, .tax{  
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 15px;
     display: flex;
     flex-direction: row;
+    padding-right: 20px;
+    margin-top: 20px;
+    padding-top: 30px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+/* .portfolio{
+    height: 28vh;
+    max-width: 100vw;
+    background-color: white;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tax{  
+    height: 28vh;
+    max-width: 100vw;
+    background-color: white;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 15px;
+    display: flex;
+    /* flex-direction: row; */
+/* } */ */
+
+
+.port-text, .tax-text, .inv-text{
+    height: 100px;
+    width: 100% !important;
+    font-size: 18px;
+    padding: 15px;
+    padding-right: 20px;
+    
+}
+
+
+.about-us{
+    background-color:    rgb(44, 43, 43);
+    height: fit-content;
+    max-width: 100%;
+    display: flexbox;
+    /* flex-direction: column; */
+    padding-left: 20px;
+}
+
+.narrative{
+    width: 100%;
+    height: fit-content;
+    padding: 25px 20px;
+    color: white;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+.our-pic{
+    width: 0%;
+    height: 65vh;
+    background-image: url('../pics/ourpic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+
+.who{
+    color: greenyellow;
+}
+
+
+.clients{
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors{
+    height: 30vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors-hd{
+    height: 5vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.ct{
+    color: yellowgreen;
+}
+
+.client-one, .client-two, .client-three, .client-four, .client-five{
+    height: 125px;
+    width: 125px;
+    background-color: white;
+    margin: 40px;
+}
+
+
+.reach-us{
+    height: 100vh;
+    width: 100%;
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.map{
+ width: 100%;
+ height: 75%;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    padding-top: 30px;
+    color: white;
+    padding: 20px;
+    background-color: yellowgreen;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h1{
+    font-size: 30px;
+}
+
+
+.footer{
+    height: 10vh;
+    width: 100vw;
+    background-color:  rgb(44, 43, 43);
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    color: white;
+    font-size: 18px;
 }
+
+.footer{
+    height: 10vh;
+    width: 100vw;
+    background-color:  rgb(44, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
  
 }
